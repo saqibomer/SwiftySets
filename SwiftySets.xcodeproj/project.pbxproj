@@ -12,6 +12,7 @@
 		AA6F46A71DEC87FA00086C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6F46A51DEC87FA00086C8D /* Main.storyboard */; };
 		AA6F46A91DEC87FA00086C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6F46A81DEC87FA00086C8D /* Assets.xcassets */; };
 		AA6F46AC1DEC87FA00086C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6F46AA1DEC87FA00086C8D /* LaunchScreen.storyboard */; };
+		AA6F46B51DEC881300086C8D /* SwiftySets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6F46B41DEC881300086C8D /* SwiftySets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AA6F46A81DEC87FA00086C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA6F46AB1DEC87FA00086C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA6F46AD1DEC87FA00086C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6F46B41DEC881300086C8D /* SwiftySets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftySets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		AA6F46A01DEC87FA00086C8D /* SwiftySets */ = {
 			isa = PBXGroup;
 			children = (
+				AA6F46B31DEC880300086C8D /* Lib */,
 				AA6F46A11DEC87FA00086C8D /* AppDelegate.swift */,
 				AA6F46A31DEC87FA00086C8D /* ViewController.swift */,
 				AA6F46A51DEC87FA00086C8D /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				AA6F46AD1DEC87FA00086C8D /* Info.plist */,
 			);
 			path = SwiftySets;
+			sourceTree = "<group>";
+		};
+		AA6F46B31DEC880300086C8D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				AA6F46B41DEC881300086C8D /* SwiftySets.swift */,
+			);
+			name = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6F46B51DEC881300086C8D /* SwiftySets.swift in Sources */,
 				AA6F46A41DEC87FA00086C8D /* ViewController.swift in Sources */,
 				AA6F46A21DEC87FA00086C8D /* AppDelegate.swift in Sources */,
 			);

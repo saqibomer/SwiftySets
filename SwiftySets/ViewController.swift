@@ -9,10 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // Properties
+    
+    let sets = SwiftySets()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        // Create a set of signed Int values set
+        if let anIntSet = sets.createSignedIntSet(startLimit: 5, endLimit: 20, increement: 5) {
+            print(anIntSet.sorted())
+        }
+        
+        // Create a set of signed Float values set
+        if let aFloatSet = sets.createSignedFloatSet(startLimit: 5.0, endLimit: 20.0, increement : 2.0) {
+            print(aFloatSet.sorted())
+        }
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
