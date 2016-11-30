@@ -9,7 +9,8 @@ SwiftySets is a simple library to create and manipulate sets.
 ### Usage
 1. Add `SwiftySets.swift` in your project
 2. Create instance of 'SwiftySets' in your class
+    
     `let sets = SwiftySets() // Add this line in your class`
 
     `override func viewDidLoad() {`
-3. Create sets like 'sets.createSignedIntSet(startLimit: 5, endLimit: 20, increement: 5)'
+3. Create sets like `sets.createSignedIntSet(startLimit: 5, endLimit: 20, increement: 5)`
